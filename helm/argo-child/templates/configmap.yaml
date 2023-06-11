@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  ref: {{ .Values.deploy.gitRef | default "dummyvalue" }}
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: reference
+  labels:
+    {{- include "argo-child.labels" . | nindent 4 }}
