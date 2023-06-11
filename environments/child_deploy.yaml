@@ -1,4 +1,2 @@
 deploy:
-  gitRef: HEAD
-example:
-  key: value
+  gitRef: 0.0.1
