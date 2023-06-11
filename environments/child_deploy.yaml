@@ -1,2 +1,2 @@
 deploy:
-  gitRef: 0.0.1
+  gitRef: HEAD
