@@ -1,2 +1,4 @@
 deploy:
   gitRef: HEAD
+example:
+  key: value
