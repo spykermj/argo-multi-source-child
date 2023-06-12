@@ -1,4 +1,2 @@
 deploy:
   gitRef: 0.0.1
-example:
-  not: permitted
